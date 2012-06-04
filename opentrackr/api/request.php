@@ -5,7 +5,7 @@
  * To Public License, Version 2, as published by Sam Hocevar. See
  * http://sam.zoy.org/wtfpl/COPYING for more details. */
 
-namespace
+namespace opentrackr\api;
 
 class Request {
     public $object;

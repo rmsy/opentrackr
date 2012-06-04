@@ -1,6 +1,15 @@
 <?php
 error_reporting(E_ALL);
-$data = '{"profile":"installous","format":"PlainText","request":"{\"args\":{\"deviceid\":1,\"showPageCount\":true,\"page\":1,\"category\":0,\"sort\":2,\"search\":\"hi\",\"appsPerPage\":15},\"object\":\"App\",\"action\":\"getList\"}"}';
+require_once('lib/SplClassLoader.php');
+require_once('lib/settee/settee.php');
+
+$appLoader = new SplClassLoader("opentrackr", __DIR__ . "/opentrackr");
+$appLoader->register();
+
+
+$request = new Request($_POST['request']);
+
+/*$data = '{"profile":"installous","format":"PlainText","request":"{\"args\":{\"deviceid\":1,\"showPageCount\":true,\"page\":1,\"category\":0,\"sort\":2,\"search\":\"hi\",\"appsPerPage\":15},\"object\":\"App\",\"action\":\"getList\"}"}';
 $request = json_decode($data);
 $json = json_decode($request->{'request'});
 $action = $json->{'action'};
@@ -12,5 +21,5 @@ if ($action == "getList") {
         die(0);
     }
 }
-
+*/
 ?>

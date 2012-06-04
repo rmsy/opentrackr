@@ -1,4 +1,5 @@
 <?php
+namespace opentrackr\api;
 global $config;
 $key = openssl_get_publickey($config['cert']);
 class Response {

@@ -1,7 +1,8 @@
 opentrackr
 =========
 
-opentrackr is an open source implementation of the [apptrackr API]
+opentrackr is an open source implementation of the [apptrackr API].
+opentrackr is heavily based on AppDB by Kyek.
 
 Features
 ----------
@@ -15,7 +16,6 @@ Helping Out
 ------------
 
 Feel free to submit pull requests. You can find us on irc.rizon.net #faultyclones
-
 
 
 

@@ -1,7 +1,6 @@
 <?php
+namespace opentrackr\api\Objects;
 
-class Category extends \opentrackr\api\Response
-{
-
+class CategoryObject extends \opentrackr\api\Response {
 
 }
