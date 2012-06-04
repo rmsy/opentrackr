@@ -21,3 +21,9 @@ class Response {
 
     }
 }
+
+class ErrorResponse extends Response {
+    function __construct($code) {
+        $this->code = $code;
+    }
+}
