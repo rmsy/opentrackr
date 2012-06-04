@@ -3,6 +3,7 @@
 /**
 * HTTP REST Client for CouchDB API
 */
+namespace Settee;
 class SetteeRestClient {
   
   /**

@@ -3,6 +3,7 @@
 /**
 * CouchDB Server Manager
 */
+namespace Settee;
 class SetteeServer {
 
   /**

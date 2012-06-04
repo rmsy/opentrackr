@@ -3,6 +3,7 @@
 /**
 * Databaase class.
 */
+namespace Settee;
 class SetteeDatabase {
 
   /**
