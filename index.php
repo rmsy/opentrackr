@@ -1,14 +1,13 @@
 <?php
 error_reporting(E_ALL);
 require_once('lib/SplClassLoader.php');
-require_once('lib/settee/settee.php');
 require_once('opentrackr.config.php');
 
 $appLoader = new SplClassLoader("opentrackr", __DIR__ . "/opentrackr");
 $appLoader->register();
 
-$setteeLoader = new SplClassLoader("Settee", __DIR__ . "/lib/settee");
-$setteeLoader->register();
+$morphLoader = new SplClassLoader("morph", __DIR__ . "lib/morph");
+$morphLoader->register();
 
 $request = new Request($_POST['request']);
 
