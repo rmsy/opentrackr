@@ -3,7 +3,7 @@ opentrackr
 
 Notice
 ----------
-**Apptrackr no longer exists, therefore opentrackr is pretty much pointless. I'll keep this repo up for memory's sake, but Apptrackr obviously isn't coming back.
+**Apptrackr no longer exists, therefore opentrackr is pretty much pointless. I'll keep this repo up for memory's sake, but Apptrackr obviously isn't coming back.**
 
 What is opentrackr?
 ----------
